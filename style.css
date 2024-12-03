@@ -1,0 +1,148 @@
+/* || Global CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: #000;
+  font-family: Lato;
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+
+/* || ID Selectors */
+
+#theSpecialOne {
+  margin-top: 16px;
+}
+
+/* || Class selectors */
+
+.header_p {
+  color: #FF8000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 53px auto 0;
+  width: 1220px;
+}
+
+/* || First Section CSS */
+
+.first_section {
+  margin-top: 63px;
+}
+.first_section_text_container_heading {
+  color: #D9AE00;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.first_section_text_container_p {
+  color: #6D81B4;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+/* || Second Section CSS */
+
+.second_section {
+  width: 1007px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 3px solid #F00;
+  border-bottom: 3px solid #F00;
+  background-color: #FFCEBE;
+  padding: 64px;
+}
+.second_section_text_container_heading {
+  color: #F44E50;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.second_section_text_container_p {
+  color: #8B2B2C;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  width: 681px;
+  margin: 24px auto 0;
+}
+
+/* || Third Section CSS */
+
+.third_section_first_text_container_heading {
+  color: #4716E4;
+  text-align: right;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.third_section_first_text_container_p {
+  color: #616161;
+  text-align: right;
+  font-family: Lato;
+  font-size: 24px;
+  padding: 24px;
+  border: 3px solid #FF5DA3;
+  background-color: #FFC1E3;
+  margin-top: 24px;
+}
+.third_section_second_text_container_heading {
+  color: #414651;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 24px; 
+}
+.dots {
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px 0;
+}
+.dots_under_p {
+  color: #C27512;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 24px; 
+  display: inline-block;
+  width: 668px;
+}
+.third_section_second_text_container_divs {
+  margin-top: 8px;
+}
+
+/* || Combinated CSS */
+
+.second_section, .third_section {
+  margin-top: 101px;
+}
+.first_section, .second_section, .third_section {
+  margin-left: 74px;
+}
+.first_section, .third_section {
+  width: 696px;
+}
+.first_section_image, .second_section_image, .third_section_image, .third_section_second_text_container {
+  margin-top: 30px;
+}
+
+/* || Reusable CSS Rules */
